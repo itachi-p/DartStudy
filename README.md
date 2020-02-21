@@ -1,4 +1,4 @@
 [Dart Official tour page](https://dart.dev/guides/language/language-tour)
 
-[Test dart fleely.](https://dartpad.dartlang.org/)
+<a href="https://dartpad.dartlang.org/" target="_new">Test dart fleely.</a>
 
