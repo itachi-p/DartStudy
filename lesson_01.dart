@@ -5,6 +5,11 @@ printInteger(int aNumber) {
 
 // This is where the app starts executing.
 main() {
-  var number = 42; // Declare and initialize a variable.
-  printInteger(number); // Call a function.
+  var number01 = 42; // Declare and initialize a variable.
+
+  // 'int' & 'double' are subtype or 'num'
+  num number02 = 1;
+  number02 = 1.1;
+
+  printInteger(number01 + number02.toInt()); // Call a function.
 }
