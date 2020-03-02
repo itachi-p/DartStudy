@@ -1,6 +1,8 @@
 // Define a function.
 printInteger(int aNumber) {
-  print('The number is $aNumber.'); // Print to console.
+  var message = 'The number';
+  print('$message is $aNumber.'); // Print to console.
+  print("${message.toUpperCase()} : $aNumber");
 }
 
 // This is where the app starts executing.
@@ -19,4 +21,10 @@ main() {
   assert(number03 == 13);
 
   printInteger(number02.toInt() + number03); // Call a function.
+
+  String multipleLines = '''
+  １行目。
+  　　２行目。
+  ''';
+  print(multipleLines);
 }
