@@ -20,8 +20,9 @@ main() {
   //print(list[4]);
   //list[4] = 400;
 
-  var list4 = Iterable<int>.generate(3).toList();
-  print("\n list4 : $list4");
+  var list4 = Iterable<int>.generate(5);
+  print("\n list4 : \n $list4 (Iterable) \n ${list4.toList()} (.toList())");
+
   var list5 = List<String>.generate(10, (i) => "num" + i.toString());
   print('\n list5 : $list5');
 }
