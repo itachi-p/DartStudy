@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cda8f8ea-9c20-48eb-9b1b-71fc7782c26f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Lesson_02_List.dart" afterDir="false" />
+    <list default="true" id="cda8f8ea-9c20-48eb-9b1b-71fc7782c26f" name="Default Changelist" comment="Studing type of Built-in (List).">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson_02_List.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_02_List.dart" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,10 +41,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Lesson_02_List.dart">
+        <entry file="file://$PROJECT_DIR$/lesson_02_List.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+            <state relative-caret-position="375">
+              <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -72,6 +72,7 @@
         <option value="$PROJECT_DIR$/circle.dart" />
         <option value="$PROJECT_DIR$/lesson_01.dart" />
         <option value="$PROJECT_DIR$/Lesson_02_List.dart" />
+        <option value="$PROJECT_DIR$/lesson_02_List.dart" />
       </list>
     </option>
   </component>
@@ -122,20 +123,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Dart Command Line App.Lesson_02_List.dart">
-    <configuration name="Lesson_02_List.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/Lesson_02_List.dart" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Dart Command Line App.lesson_02_List.dart">
     <configuration name="lesson_01.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/lesson_01.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="lesson_02_List.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/lesson_02_List.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Dart Command Line App.Lesson_02_List.dart" />
         <item itemvalue="Dart Command Line App.lesson_01.dart" />
       </list>
     </recent_temporary>
@@ -179,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583161211195</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Studing type of Built-in (List).">
+      <created>1583193969862</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1583193969862</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -196,7 +203,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info active="true" anchor="bottom" id="Run" visible="true" weight="0.31791046" />
       <window_info anchor="bottom" id="Debug" />
-      <window_info anchor="bottom" id="Dart Analysis" order="0" weight="0.32972136" />
+      <window_info anchor="bottom" id="Dart Analysis" order="0" weight="0.3283582" />
       <window_info anchor="bottom" id="Version Control" order="1" />
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="Terminal" order="3" weight="0.34055728" />
@@ -213,7 +220,8 @@
     <MESSAGE value="Studing type of Built-in of Dart language." />
     <MESSAGE value="Studing type of Built-in." />
     <MESSAGE value="Studing type of Built-in (num, String)." />
-    <option name="LAST_COMMIT_MESSAGE" value="Studing type of Built-in (num, String)." />
+    <MESSAGE value="Studing type of Built-in (List)." />
+    <option name="LAST_COMMIT_MESSAGE" value="Studing type of Built-in (List)." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -233,10 +241,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson_02_List.dart">
+    <entry file="file://$PROJECT_DIR$/lesson_02_List.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        <state relative-caret-position="375">
+          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
         </state>
       </provider>
     </entry>
