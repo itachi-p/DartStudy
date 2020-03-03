@@ -3,8 +3,8 @@ main() {
 
   var list1 = <int>[];
   // The following notation has the same meaning.
-  var list2 = List<int>();
-  List<int> list3 = [];
+  //var list2 = List<int>();
+  //List<int> list3 = [];
 
   list1.add(100);
   list1.add(200);
@@ -55,12 +55,14 @@ main() {
   };
 
   // The following code has the same meaning:
+  /*
   var map3 = Map();
   var map4 = Map<String, String>();
   map3['firstKey'] = 'firstValue';
   map3['secondKey'] = 'secondValue';
+   */
 
-  print("\n map3 $map3");
+  print("\n map2 $map2");
 
   // Runes  Special syntax for representing 32-bit Unicode values in strings
 
