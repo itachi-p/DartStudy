@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson_02_List.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_02_List.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson_03_function.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_03_function.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_04_exception.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_04_exceptions.dart" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,14 +51,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lesson_03_function.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="45" column="49" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="49" />
+            <state relative-caret-position="-26">
+              <caret line="56" column="4" lean-forward="true" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lesson_04_exceptions.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -87,6 +97,8 @@
         <option value="$PROJECT_DIR$/Lesson_02_List.dart" />
         <option value="$PROJECT_DIR$/lesson_02_List.dart" />
         <option value="$PROJECT_DIR$/lesson_03_function.dart" />
+        <option value="$PROJECT_DIR$/lesson_04_exception.dart" />
+        <option value="$PROJECT_DIR$/lesson_04_exceptions.dart" />
       </list>
     </option>
   </component>
@@ -95,6 +107,9 @@
     <option name="y" value="50" />
     <option name="width" value="1096" />
     <option name="height" value="785" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -137,7 +152,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Dart Command Line App.lesson_03_function.dart">
+  <component name="RunManager" selected="Dart Command Line App.lesson_04_exceptions.dart">
     <configuration name="lesson_01.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/lesson_01.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
@@ -153,8 +168,19 @@
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="lesson_04_exceptions.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/lesson_04_exceptions.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="lesson_04_exception.dart" type="FlutterRunConfigurationType" factoryName="Flutter" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/lesson_04_exception.dart" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Dart Command Line App.lesson_04_exceptions.dart" />
+        <item itemvalue="Flutter.lesson_04_exception.dart" />
         <item itemvalue="Dart Command Line App.lesson_03_function.dart" />
         <item itemvalue="Dart Command Line App.lesson_01.dart" />
       </list>
@@ -248,7 +274,21 @@
       <option name="project" value="LOCAL" />
       <updated>1583241377260</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Learn named parameters.">
+      <created>1583288403848</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1583288403848</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Learn Named parameters and Closure.">
+      <created>1583291104506</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1583291104506</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -290,7 +330,9 @@
     <MESSAGE value="Studing type of Built-in (List, Set, Map, Runes, Symbol)." />
     <MESSAGE value="Studying basically functions." />
     <MESSAGE value="Added a function to display Fibonacci sequence." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a function to display Fibonacci sequence." />
+    <MESSAGE value="Learn named parameters." />
+    <MESSAGE value="Learn Named parameters and Closure." />
+    <option name="LAST_COMMIT_MESSAGE" value="Learn Named parameters and Closure." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -318,13 +360,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_04_exception.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lesson_03_function.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="45" column="49" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="49" />
+        <state relative-caret-position="-26">
+          <caret line="56" column="4" lean-forward="true" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
           <folding>
             <element signature="e#0#27#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_04_exceptions.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
         </state>
       </provider>
     </entry>

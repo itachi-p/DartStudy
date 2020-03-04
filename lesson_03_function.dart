@@ -36,7 +36,6 @@ List fibonacci(int num) {
 // 名前付きパラメーター、及びオプショナルパラメーターには初期値(コンパイル時定数)を設定できる。
 // bool型でデフォルト値が設定されていない場合、trueでもfalseでもなくnullになる。
 void enableFlags(bool bold, {bool italic = false, @required bool hidden}) {}
-
 void aaaBBB(bool a, [bool optionalParameter = false]) {}
 
 main() {
@@ -48,7 +47,7 @@ main() {
   enableFlags(true, italic: true, hidden: false);
   enableFlags(true, hidden: true);
   //enableFlags(true, italic: false); // error(note) "hidden" required
-  //enableFlags(hidden: null) // error  1st argument "bold" required
+  //enableFlags(hidden: null); // error  1st argument "bold" required
 
   // Anonymous function
 // Dartは関数もオブジェクトとして変数に代入したり、引数として他の関数に渡すことができる。
