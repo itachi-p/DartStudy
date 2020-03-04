@@ -1,5 +1,7 @@
 import 'dart:math' as math;
 
+import 'package:meta/meta.dart';
+
 void printPi() {
   print("円周率は${math.pi}です。");
 }
@@ -26,9 +28,21 @@ List fibonacci(int num) {
   return fibo;
 }
 
+// The following syntax sugar can also be used only for expressions.
+//bool isNoble(int atomicNumber) => _nobleGases[atomicNumber] != null;
+
+// {}で囲った部分の名前付きパラメーターは呼び出し側で名前指定する。
+// 同時に引数は任意指定になるが、必須にしたい場合@requiredアノテーション(meta.dartのimportが必要)を付ける。
+void enableFlags(bool bold, {bool italic, @required bool hidden}) {}
+
 main() {
   printPi();
   print(subtract(3, 5));
   print(multiply(8, 9));
   print(fibonacci(10));
+
+  enableFlags(true, italic: true, hidden: false);
+  enableFlags(true, hidden: true);
+  enableFlags(true, italic: false); // error(note) "hidden" required
+  //enableFlags(hidden: null) // error  1st argument "bold" required
 }

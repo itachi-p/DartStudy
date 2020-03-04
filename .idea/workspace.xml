@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cda8f8ea-9c20-48eb-9b1b-71fc7782c26f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson_03_function.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson_02_List.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_02_List.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_03_function.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_03_function.dart" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,8 +44,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lesson_02_List.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="79" column="41" lean-forward="true" selection-start-line="79" selection-start-column="41" selection-end-line="79" selection-end-column="41" />
+            <state relative-caret-position="253">
+              <caret line="64" column="22" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -53,8 +53,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lesson_03_function.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+            <state relative-caret-position="273">
+              <caret line="45" column="49" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="49" />
+              <folding>
+                <element signature="e#0#27#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -231,7 +234,21 @@
       <option name="project" value="LOCAL" />
       <updated>1583238818027</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Studying basically functions.">
+      <created>1583239906375</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1583239906375</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Added a function to display Fibonacci sequence.">
+      <created>1583241377260</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1583241377260</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -248,7 +265,8 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info active="true" anchor="bottom" id="Run" visible="true" weight="0.32972136" />
       <window_info anchor="bottom" id="Debug" />
-      <window_info anchor="bottom" id="Dart Analysis" order="0" weight="0.3283582" />
+      <window_info anchor="bottom" id="Messages" weight="0.32972136" />
+      <window_info anchor="bottom" id="Dart Analysis" order="0" weight="0.32817337" />
       <window_info anchor="bottom" id="Version Control" order="1" />
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="Terminal" order="3" weight="0.34055728" />
@@ -270,7 +288,9 @@
     <MESSAGE value="Studing type of Built-in (List) part3." />
     <MESSAGE value="Studing type of Built-in (List, Set, Map)." />
     <MESSAGE value="Studing type of Built-in (List, Set, Map, Runes, Symbol)." />
-    <option name="LAST_COMMIT_MESSAGE" value="Studing type of Built-in (List, Set, Map, Runes, Symbol)." />
+    <MESSAGE value="Studying basically functions." />
+    <MESSAGE value="Added a function to display Fibonacci sequence." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a function to display Fibonacci sequence." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -293,15 +313,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lesson_02_List.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="79" column="41" lean-forward="true" selection-start-line="79" selection-start-column="41" selection-end-line="79" selection-end-column="41" />
+        <state relative-caret-position="253">
+          <caret line="64" column="22" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lesson_03_function.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        <state relative-caret-position="273">
+          <caret line="45" column="49" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
