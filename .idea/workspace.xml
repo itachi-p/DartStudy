@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cda8f8ea-9c20-48eb-9b1b-71fc7782c26f" name="Default Changelist" comment="While learning about mix-in, stop textbook learning and return to the continuation of assignment application creation.">
+    <list default="true" id="cda8f8ea-9c20-48eb-9b1b-71fc7782c26f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lesson_05_callable_class.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson_02_List.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_02_List.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson_03_function.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_03_function.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson_05_class.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_05_class.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_05_covariant.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_05_covariant.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson_05_mixin.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_05_mixin.dart" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,6 +47,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -65,14 +66,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Dart Command Line App.lesson_02_List.dart">
+  <component name="RunManager" selected="Dart Command Line App.lesson_05_callable_class.dart">
     <configuration name="lesson_02_List.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/lesson_02_List.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="lesson_04_exceptions.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/lesson_04_exceptions.dart" />
+    <configuration name="lesson_05_callable_class.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/lesson_05_callable_class.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -95,6 +96,12 @@
       <option name="filePath" value="$PROJECT_DIR$/lesson_04_exception.dart" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Dart Command Line App.lesson_05_callable_class.dart" />
+        <item itemvalue="Dart Command Line App.lesson_05_mixin.dart" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -205,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583293847701</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="While learning about mix-in, stop textbook learning and return to the continuation of assignment application creation.">
+      <created>1583299610900</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1583299610900</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

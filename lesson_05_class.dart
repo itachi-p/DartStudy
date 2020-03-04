@@ -27,7 +27,7 @@ abstract class AbstractContainer {
 class ImplementContainer implements AbstractContainer {
   @override
   void updateChildren() {
-    // TODO: implement updateChildren
+    print('This is dummy.');
   }
 }
 
