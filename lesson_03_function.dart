@@ -52,7 +52,7 @@ main() {
   // Anonymous function
 // Dartは関数もオブジェクトとして変数に代入したり、引数として他の関数に渡すことができる。
 // 関数はFunction型になる。
-      (int num) {
+  (int num) {
     return true;
   };
   // for example.

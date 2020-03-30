@@ -6,16 +6,17 @@ main() {
   //var list2 = List<int>();
   //List<int> list3 = [];
 
-  list1.add(100);
-  list1.add(200);
-  list1.add(100 + list1[1]);
+  list1.add(100); // index [0]
+  list1.add(200); // index [1]
+  list1.add(100 + list1[1]);  // index [2]
   print(list1);
 
   list1[1] = 101;
   list1[2] = list1[1] + 100;
-  list1.add(list1[2] + 100);
+  list1.add(list1[2] + 100);  // index [3]
   print(list1);
   assert(list1.elementAt(1) == 101);
+  //assert(list1.elementAt(2) == 202); // not true => Error
 
   // The following is a runtime error:
   // RangeError (index): Invalid value: Not in range 0..3, inclusive: 4
@@ -32,6 +33,7 @@ main() {
 
   Set set1 = {};
   set1.add(1000);
+  assert(set1.elementAt(0) == 1000);
   //Set set2 = const {1, 1, 2, 3, 5}; // Error because there are two same values
   // Attempting to assign to a const variable results in a runtime error.
   //set2.add(200);
@@ -72,7 +74,7 @@ main() {
   print(clapping.runes.toList());
 
   Runes input =
-  Runes('\u2665 \u{1f605} \u{1f60e} \u{1f47b} \u{1f596} \u{1f44d}');
+      Runes('\u2665 \u{1f605} \u{1f60e} \u{1f47b} \u{1f596} \u{1f44d}');
   print(String.fromCharCodes(input));
 
   // Symbol
